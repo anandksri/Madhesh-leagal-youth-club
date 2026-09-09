@@ -1,0 +1,6 @@
+# Robots.txt for Madhesh Legal Youth Club (MLYC)
+User-agent: *
+Allow: /
+
+# Sitemap Reference
+Sitemap: https://madheshlegalyouthclub.org/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "Madhesh Legal Youth Club",
+  "description": "A non-profit organization based in Birgunj, Nepal, working to promote legal awareness, rights, responsibilities, and access to justice across Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

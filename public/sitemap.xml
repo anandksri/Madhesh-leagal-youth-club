@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://madheshlegalyouthclub.org/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://madheshlegalyouthclub.org/images/hero_legal_gathering.jpg</image:loc>
+      <image:title>Madhesh Legal Youth Club Legal Awareness Gathering</image:title>
+      <image:caption>Community members attending legal awareness gathering in Birgunj, Nepal</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#about</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#legal-awareness</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#initiatives</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#team</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#gallery</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://madheshlegalyouthclub.org/images/youth_workshop.jpg</image:loc>
+      <image:title>Youth Legal Education Workshop</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://madheshlegalyouthclub.org/images/community_outreach.jpg</image:loc>
+      <image:title>Community Outreach Dialogue</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://madheshlegalyouthclub.org/images/team_members_group.jpg</image:loc>
+      <image:title>Madhesh Legal Youth Club Members</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#contact</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://madheshlegalyouthclub.org/#sitemap</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+</urlset>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E274A"/>
+      <stop offset="100%" stop-color="#071426"/>
+    </linearGradient>
+  </defs>
+  <!-- Navy Background with rounded corners -->
+  <rect width="32" height="32" rx="7" fill="url(#grad)"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#D4A72C" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <!-- Stylized Gold Scales of Justice -->
+  <g stroke="#D4A72C" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center Pillar -->
+    <line x1="16" y1="5.5" x2="16" y2="26.5" stroke-width="2"/>
+    <!-- Top Finial -->
+    <circle cx="16" cy="5.5" r="1.5" fill="#D4A72C" stroke="none"/>
+    <!-- Horizontal Crossbeam -->
+    <line x1="8" y1="10.5" x2="24" y2="10.5" stroke-width="2"/>
+    
+    <!-- Left Balance Pan -->
+    <path d="M8 10.5 L4.5 18 H11.5 Z" stroke-width="1.6" fill="#D4A72C" fill-opacity="0.25"/>
+    
+    <!-- Right Balance Pan -->
+    <path d="M24 10.5 L20.5 18 H27.5 Z" stroke-width="1.6" fill="#D4A72C" fill-opacity="0.25"/>
+    
+    <!-- Base Platform -->
+    <line x1="11" y1="26.5" x2="21" y2="26.5" stroke-width="2.5"/>
+  </g>
+</svg>
