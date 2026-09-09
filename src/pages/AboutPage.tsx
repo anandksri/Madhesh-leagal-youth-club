@@ -95,87 +95,18 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
                 {/* LEFT SIDE: prominent legal/civic logo or icon */}
                 <div className="lg:col-span-5 flex flex-col items-center justify-center">
-                  <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-3xl bg-[#0B1F3A] p-6 sm:p-8 flex items-center justify-center border border-slate-200 shadow-sm transition-transform duration-300 hover:scale-[1.02]">
-                    {/* Subtle geometric ring */}
-                    <div className="absolute inset-3 rounded-2xl border border-[#D4A72C]/30 pointer-events-none" />
-                    
-                    {/* Clean original legal & civic symbol */}
-                    <svg
-                      viewBox="0 0 160 160"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-full h-full text-white"
-                      aria-label="Madhesh Legal Youth Club Civic Justice Emblem"
-                      role="img"
-                    >
-                      {/* Top Awareness Star/Gem */}
-                      <circle cx="80" cy="24" r="5" fill="#D4A72C" />
-
-                      {/* Central Balance Beam */}
-                      <path
-                        d="M80 34V116"
-                        stroke="#FFFFFF"
-                        strokeWidth="3.5"
-                        strokeLinecap="round"
-                      />
-                      <path
-                        d="M42 46H118"
-                        stroke="#D4A72C"
-                        strokeWidth="3.5"
-                        strokeLinecap="round"
-                      />
-
-                      {/* Left Scale: Pan and Strings */}
-                      <path
-                        d="M42 46L27 76M42 46L57 76"
-                        stroke="#94A3B8"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                      <path
-                        d="M23 76C23 85 61 85 61 76H23Z"
-                        fill="#D4A72C"
-                        fillOpacity="0.25"
-                        stroke="#D4A72C"
-                        strokeWidth="2.5"
-                        strokeLinejoin="round"
-                      />
-
-                      {/* Right Scale: Pan and Strings */}
-                      <path
-                        d="M118 46L103 76M118 46L133 76"
-                        stroke="#94A3B8"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                      <path
-                        d="M99 76C99 85 137 85 137 76H99Z"
-                        fill="#D4A72C"
-                        fillOpacity="0.25"
-                        stroke="#D4A72C"
-                        strokeWidth="2.5"
-                        strokeLinejoin="round"
-                      />
-
-                      {/* Base Law Book / Foundation of Justice */}
-                      <path
-                        d="M48 116C62 112 74 116 80 120C86 116 98 112 112 116V134C98 130 86 134 80 138C74 134 62 130 48 134V116Z"
-                        fill="#174A7E"
-                        stroke="#FFFFFF"
-                        strokeWidth="2.5"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M80 120V138"
-                        stroke="#D4A72C"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                      />
-                    </svg>
+                  <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border border-slate-200 shadow-sm transition-transform duration-300 hover:scale-[1.02] bg-[#0B1F3A]">
+                    <img
+                      src="/images/madheshclub-logo.jpeg"
+                      alt="Legal awareness workshop and civic engagement"
+                      referrerPolicy="no-referrer"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F3A]/60 via-[#0B1F3A]/10 to-transparent" />
                   </div>
                   <div className="mt-4 text-center">
                     <span className="text-xs font-bold tracking-widest uppercase text-[#0B1F3A]">
-                      Civic Justice Emblem
+                      Madhesh Legal Youth Club
                     </span>
                     <span className="text-[11px] text-slate-500 block">
                       Equality • Rights • Awareness
