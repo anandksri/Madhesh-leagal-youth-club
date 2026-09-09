@@ -59,7 +59,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               <div className="lg:col-span-5">
                 <div className="group rounded-2xl overflow-hidden shadow-sm border border-slate-200">
                   <img
-                    src="/images/youth_workshop.jpg"
+                    src="/images/about-one.jpg"
                     alt="Madhesh Legal Youth Club session"
                     referrerPolicy="no-referrer"
                     className="w-full aspect-4/3 object-cover image-zoom-subtle"

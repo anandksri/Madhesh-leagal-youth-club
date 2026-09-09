@@ -133,7 +133,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               <div className="lg:col-span-6">
                 <div className="group relative rounded-2xl overflow-hidden shadow-md border border-slate-100 aspect-4/3">
                   <img
-                    src="/images/community_outreach.jpg"
+                    src="/images/home-about.jpg"
                     alt="Madhesh Legal Youth Club community outreach program"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover image-zoom-subtle"

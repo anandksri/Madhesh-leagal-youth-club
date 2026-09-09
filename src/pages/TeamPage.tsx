@@ -111,8 +111,8 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
               <div className="lg:col-span-7">
                 <div className="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200">
                   <img
-                    src="/images/team_members_group.jpg"
-                    alt="Madhesh Legal Youth Club 30 Members representation"
+                    src="/images/members/members-team.jpeg"
+                    alt="Madhesh Legal Youth Club 20 Members representation"
                     referrerPolicy="no-referrer"
                     className="w-full aspect-16/10 object-cover image-zoom-subtle"
                   />
@@ -120,7 +120,7 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
                     <div className="flex items-center gap-2">
                       <Users className="w-4 h-4 text-[#D4A72C]" />
                       <span className="text-xs font-bold text-[#0B1F3A]">
-                        30 Active Club Members
+                        20 Active Club Members
                       </span>
                     </div>
                   </div>
@@ -136,13 +136,13 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
                   Our Members
                 </h2>
                 <div className="flex items-baseline gap-3">
-                  <span className="text-5xl sm:text-6xl font-extrabold text-[#0B1F3A]">30</span>
+                  <span className="text-5xl sm:text-6xl font-extrabold text-[#0B1F3A]">20</span>
                   <span className="text-xs sm:text-sm font-bold text-[#174A7E] uppercase tracking-wider">
                     Total Active Members
                   </span>
                 </div>
                 <p className="text-base text-slate-600 leading-relaxed">
-                  Our organization is powered by a dedicated team of 30 young individuals, law students, and community volunteers working collaboratively on the ground in Birgunj and surrounding districts.
+                  Our organization is powered by a dedicated team of 20 young individuals, law students, and community volunteers working collaboratively on the ground in Birgunj and surrounding districts.
                 </p>
                 <div className="space-y-3 pt-2">
                   <div className="flex items-start gap-3 text-sm text-slate-700">
