@@ -1,5 +1,5 @@
 {
-  "name": "react-example",
+  "name": "madhesh-legal-youth-club",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -33,5 +33,8 @@
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.3"
-  }
+  },
+  "description": "Website for the Madhesh Legal Youth Club.",
+  "author": "Anand Keshari",
+  "license": "MIT"
 }
